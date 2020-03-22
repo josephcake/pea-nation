@@ -1,0 +1,54 @@
+#nav_container {
+    background-color: rgb(182, 255, 200);
+    /* border: solid 1px; */
+    margin: 0 3% 0 3%;
+    /* padding: 0 1% 0 1%; */
+    display: flex;
+}
+
+#nav_logo {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+}
+
+.nav_logoDiv {
+    /* border: solid 1px; */
+    width: 5vw;
+    height: 100%;
+}
+
+#nav_logoName {
+    width: 20%;
+    /* border: solid 1px; */
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+#nav_logoName h1 {
+    font-size: 1.5vw;
+    height: fit-content;
+    margin: 1vw;
+}
+
+#nav_bar {
+    /* border: solid 1px; */
+    width: 30%;
+    margin: 0 0 0 38%;
+}
+
+#nav_bar ul {
+    display: flex;
+    list-style: none;
+    padding: 1%;
+    margin: 1% 0 0 30%;
+    justify-content: space-around;
+    align-content: center;
+    width: 90%;
+    height: fit-content;
+}
+
+#nav_bar ul li {
+    font-size: 1.5vw;
+}
