@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -39,10 +42,12 @@ nav {
     justify-content: space-around;
     width: 80%;
     float: right;
+    
 }
 .nav_bar ul li {
     justify-content: space-around;
     list-style: none;
+    align-items: center;
 }
 .button {
     text-decoration: none;
@@ -53,5 +58,5 @@ nav {
 .button:hover {
     color: rgb(0, 255, 255);
     /* font-weight: 600;   */
-    text-shadow: rgb(0, 255, 229) 0 0 20px;
+    text-shadow: rgb(255, 0, 255) 1px 1px 10px;
 }
